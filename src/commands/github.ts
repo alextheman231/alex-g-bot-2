@@ -10,7 +10,7 @@ class GitHubLinkCommand extends Command {
 
   public override async chatInputRun(interaction: ChatInputCommandInteraction): Promise<void> {
     await interaction.reply(
-      "Here's the GitHub repository link to my source code: https://github.com/AlexMan123456/alex-g-bot-2",
+      "Here's the GitHub repository link to my source code: https://github.com/alextheman231/alex-g-bot-2",
     );
   }
   public override registerApplicationCommands(

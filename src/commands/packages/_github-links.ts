@@ -7,15 +7,15 @@ async function gitHubLinks(interaction: ChatInputCommandInteraction) {
     .setTitle("GitHub Links to Alex's Packages")
     .setColor("Green")
     .addFields(
-      { name: "@alextheman/components", value: "https://github.com/AlexMan123456/components" },
-      { name: "@alextheman/utility", value: "https://github.com/AlexMan123456/utility" },
+      { name: "@alextheman/components", value: "https://github.com/alextheman231/components" },
+      { name: "@alextheman/utility", value: "https://github.com/alextheman231/utility" },
       {
         name: "@alextheman/eslint-plugin",
-        value: "https://github.com/AlexMan123456/eslint-plugin",
+        value: "https://github.com/alextheman231/eslint-plugin",
       },
-      { name: "AlexCLine", value: "https://github.com/AlexMan123456/alex-c-line" },
-      { name: "Gitmock", value: "https://github.com/AlexMan123456/gitmock" },
-      { name: "Dropcore", value: "https://github.com/AlexMan123456/dropcore" },
+      { name: "AlexCLine", value: "https://github.com/alextheman231/alex-c-line" },
+      { name: "Gitmock", value: "https://github.com/alextheman231/gitmock" },
+      { name: "Dropcore", value: "https://github.com/alextheman231/dropcore" },
     );
 
   await interaction.reply({ embeds: [embed] });
