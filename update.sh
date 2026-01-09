@@ -10,3 +10,4 @@ docker stop alex-g-bot-2
 docker rm alex-g-bot-2
 
 docker run -d --network postgres_database --name alex-g-bot-2 alex-g-bot-2:$version
+
