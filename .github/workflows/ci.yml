@@ -47,7 +47,7 @@ jobs:
           run_install: false
 
       - name: Use Node.js
-        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
         with:
           node-version: 22
           cache: "pnpm"
@@ -67,4 +67,4 @@ jobs:
         run: pnpm run lint
 
   actions-ci:
-    uses: alextheman231/github-actions/.github/workflows/actions-ci.yml@f00ea95a57c8d8e9810149d2b5c5dca1af7d8058 # v6.0.0
+    uses: alextheman231/github-actions/.github/workflows/actions-ci.yml@40d4eac5a7058957e6fe46cafe068d92eade73d8 # v7.0.1
