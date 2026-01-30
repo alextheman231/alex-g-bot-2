@@ -39,7 +39,7 @@
     "update-dependencies": "pnpm update --latest && pnpm update"
   },
   "dependencies": {
-    "@alextheman/utility": "^4.10.2",
+    "@alextheman/utility": "^4.11.0",
     "@prisma/adapter-pg": "^7.3.0",
     "@prisma/client": "^7.3.0",
     "@prisma/extension-accelerate": "^3.0.1",
@@ -51,14 +51,14 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@alextheman/eslint-plugin": "^5.4.3",
+    "@alextheman/eslint-plugin": "^5.5.0",
     "@types/common-tags": "^1.8.4",
-    "@types/node": "^25.0.10",
+    "@types/node": "^25.1.0",
     "@types/pg": "^8.16.0",
-    "alex-c-line": "^1.20.0",
+    "alex-c-line": "^1.21.2",
     "dotenv": "^17.2.3",
     "eslint": "^9.39.2",
-    "eslint-plugin-package-json": "^0.88.1",
+    "eslint-plugin-package-json": "^0.88.2",
     "eslint-plugin-perfectionist": "^5.4.0",
     "husky": "^9.1.7",
     "nodemon": "^3.1.11",
