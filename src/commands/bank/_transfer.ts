@@ -1,9 +1,6 @@
-import {
-  ContainerBuilder,
-  MessageFlags,
-  SeparatorSpacingSize,
-  type ChatInputCommandInteraction,
-} from "discord.js";
+import type { ChatInputCommandInteraction } from "discord.js";
+
+import { ContainerBuilder, MessageFlags, SeparatorSpacingSize } from "discord.js";
 
 import makePayment, { parsePaymentData } from "src/commands/bank/_makePayment";
 import getCurrencySymbol from "src/utility/getCurrencySymbol";
