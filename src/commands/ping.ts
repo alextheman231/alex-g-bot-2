@@ -1,7 +1,8 @@
 import type { ApplicationCommandRegistry, Awaitable } from "@sapphire/framework";
+import type { ChatInputCommandInteraction } from "discord.js";
 
 import { Command } from "@sapphire/framework";
-import { codeBlock, EmbedBuilder, type ChatInputCommandInteraction } from "discord.js";
+import { codeBlock, EmbedBuilder } from "discord.js";
 import database from "prisma/connection";
 
 class PingCommand extends Command {
