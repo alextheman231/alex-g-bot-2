@@ -15,7 +15,9 @@ class PingCommand extends Command {
 
     const pingMessage = pingResponse.resource!.message!;
 
-    if (!pingMessage) return;
+    if (!pingMessage) {
+      return;
+    }
 
     const wsPing = Math.round(this.container.client.ws.ping);
     const restPing = pingMessage.createdTimestamp - interaction.createdTimestamp;
